@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cyber Gacha Simulator</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">
+        Hilmy<br>
+        GACHA
+    </h1>
+
+    <p class="subtitle">
+        semoga beruntung
+    </p>
+
+    <div class="buttons">
+        <button id="pull1">PULL x1</button>
+        <button id="pull10">PULL x10</button>
+        <button id="reset">RESET</button>
+    </div>
+
+    <div class="panel">
+        <h2>SYSTEM STATUS</h2>
+
+        <p>Total Pull : <span id="total">0</span></p>
+        <p>Common : <span id="common">0</span></p>
+        <p>Rare : <span id="rare">0</span></p>
+        <p>Epic : <span id="epic">0</span></p>
+        <p>Legendary : <span id="legendary">0</span></p>
+    </div>
+
+    <div class="panel">
+        <h2>GACHA RESULTS</h2>
+        <div id="result"></div>
+    </div>
+
+</div>
+
+<script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
