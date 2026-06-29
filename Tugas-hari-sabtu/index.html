@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Weather App</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>
+<i class="fa-solid fa-cloud-sun"></i>
+Weather App
+</h1>
+
+<input
+type="text"
+id="cityInput"
+placeholder="Masukkan nama kota">
+
+<div class="button-group">
+
+<button id="searchBtn">
+<i class="fa-solid fa-magnifying-glass"></i>
+Cari
+</button>
+
+<button id="locationBtn">
+<i class="fa-solid fa-location-dot"></i>
+Lokasi Saya
+</button>
+
+</div>
+
+<div id="weather">
+
+<h2 id="city">-</h2>
+
+<h1 id="temp">
+<i class="fa-solid fa-temperature-three-quarters"></i>
+-
+</h1>
+
+<p id="description">
+<i class="fa-solid fa-cloud"></i>
+-
+</p>
+
+<p>
+<i class="fa-solid fa-droplet"></i>
+Humidity :
+<span id="humidity"></span>
+</p>
+
+<p>
+<i class="fa-solid fa-wind"></i>
+Wind :
+<span id="wind"></span>
+</p>
+
+</div>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
